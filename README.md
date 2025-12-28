@@ -1,6 +1,7 @@
 # bibclean - Clean BibTeX file
 
-Cleans a BibTeX database removing unused references
+Cleans a BibTeX file/database removing unused references.
+(Uses only a few standard library packages and modules.)
 
 ```
 usage: bib_parse.py [-h] [--cites <file.tex>] [--dups <file.bib>] {clean} ...
